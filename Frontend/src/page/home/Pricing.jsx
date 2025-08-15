@@ -1,12 +1,12 @@
 import React from 'react'
 
-const Awards = () => {
+const Pricing = () => {
   return (
     <div>
-        Awards Section
+        Pricing Section
       
     </div>
   )
 }
 
-export default Awards
+export default Pricing
