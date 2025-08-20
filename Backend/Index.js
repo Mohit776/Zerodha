@@ -2,10 +2,13 @@ const express = require('express');
 require('dotenv').config();
 const mongoose = require('mongoose');
 
+
 const PORT = process.env.PORT || 3002;
 const uri = process.env.MONGO_DB;
 
 const app = express();
+
+
 
 
 // Connect to MongoDB first
